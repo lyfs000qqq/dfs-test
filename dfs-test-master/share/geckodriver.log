@@ -201,3 +201,25 @@ console.error: BroadcastService:
 [Parent 6267, Gecko_IOThread] WARNING: pipe error (80): 连接被对方重设: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
 [Parent 6267, Gecko_IOThread] WARNING: pipe error (79): 连接被对方重设: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
 1552874193260	Marionette	INFO	Stopped listening on port 33821
+1552876997882	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dyoePQT8rEsS"
+1552876998197	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552876998197	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552876999317	Marionette	INFO	Listening on port 33529
+1552876999387	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7622, Gecko_IOThread] WARNING: pipe error (87): 连接被对方重设: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+[Parent 7622, Gecko_IOThread] WARNING: pipe error (79): 连接被对方重设: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+1552877078917	Marionette	INFO	Stopped listening on port 33529
+1552877084693	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Eyg3WcOb2MFO"
+1552877085016	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552877085017	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552877086130	Marionette	INFO	Listening on port 43863
+1552877086197	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7941, Gecko_IOThread] WARNING: pipe error (96): 连接被对方重设: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+1552877215279	Marionette	INFO	Stopped listening on port 43863
+1552877249746	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.F5yaE16K87np"
+1552877250077	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552877250077	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552877251210	Marionette	INFO	Listening on port 42861
+1552877251255	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552877269407	Marionette	INFO	Stopped listening on port 42861
+[Parent 8331, Gecko_IOThread] WARNING: pipe error (79): 连接被对方重设: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363

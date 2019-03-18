@@ -35,6 +35,8 @@ class Driver(object):
 
         self.share_size=config.get("share", "share_size")
 
+        self.share_type=config.get("share","share_type")
+
         # driver.find_element_by_class_name("fa-sign-out").click()
 
     def close(self):

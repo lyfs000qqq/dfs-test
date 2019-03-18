@@ -34,18 +34,20 @@ class Share():
 
         self.driver.find_element_by_xpath("//div[@id = 'share_add_quota']/input").send_keys(driver_instance.share_size)
 
-        self.driver.find_element_by_xpath("//input[@value = 'CIFS']").click()
-        self.driver.find_element_by_xpath("//input[@value = 'NFS']").click()
-        self.driver.find_element_by_xpath("//input[@value = 'FTP']").click()
-        time.sleep(2)
+        nfs = self.driver.find_element_by_xpath("//input[@value = 'NFS']")
+        if 'NFS' in driver_instance.share_type:
+            nfs.send_keys(Keys.SPACE)
+        time.sleep(1)
 
-        inputs = self.driver.find_elements_by_xpath("//input[@type = 'checkbox']")
-        for input in inputs:
-            if input.is_selected():
-                print ('pass')
-            else:
-                input.send_keys(Keys.SPACE)
-                time.sleep(1)
+        cifs = self.driver.find_element_by_xpath("//input[@value = 'CIFS']")
+        if 'CIFS' not in driver_instance.share_type:
+            cifs.send_keys(Keys.SPACE)
+        time.sleep(1)
+
+        ftp = self.driver.find_element_by_xpath("//input[@value = 'FTP']")
+        if 'FTP' in driver_instance.share_type:
+            ftp.send_keys(Keys.SPACE)
+        time.sleep(1)
 
         self.driver.find_element_by_xpath("//button[@id = 'share_add_submit']").click()
 
@@ -56,4 +58,4 @@ class Share():
 share = Share()
 share.get_share()
 share.add_share()
-# user.close()
+share.close()
